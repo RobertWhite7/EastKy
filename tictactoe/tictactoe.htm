@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+  
+    <link rel="stylesheet" type="text/css" href="tictactoe.css">
+
+    <script type="text/javascript" src="tictactoe.js"></script>
+</head>
+
+<body background="https://s-media-cache-ak0.pinimg.com/originals/45/bb/3f/45bb3f9a3d01c44c4b34cc9e8ec2c058.jpg">
+
+    <div id="tic-tac-toe">
+        <div class="span3 new_span">
+            <div class="row">
+                <h1 class="span3">Tic Tac Toe&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h1>
+                <div class="span3">
+                    <div class="input-prepend input-append, col-md-12">
+                        <span class="add-on win_text">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspO won </span><strong id="o_win" class="win_times add-on">0</strong>
+                        <span class="add-on">time(s)</span>
+                    </div>
+                    <div class="input-prepend input-append, col-md-12">
+                        <span class="add-on win_text">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspX won </span><strong id="x_win" class="win_times add-on">0</strong>
+                        <span class="add-on">time(s)</span>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <ul class="row" id="game">
+                <li id="one" class="btn span1">?</li>
+                <li id="two" class="btn span1">?</li>
+                <li id="three" class="btn span1">?</li>
+                <br>
+
+                <li id="four" class="btn span1">?</li>
+                <li id="five" class="btn span1">?</li>
+                <li id="six" class="btn span1">?</li>
+                <br>
+                <li id="seven" class="btn span1">?</li>
+                <li id="eight" class="btn span1">?</li>
+                <li id="nine" class="btn span1">?</li>
+            </ul>
+
+            <div class="clr">&nbsp;</div>
+            <div class="row"><a href="#" id="reset" class="btn-success btn span3">Restart</a></div>
+        </div>
+    </div>
+</body>
+
+</html>
