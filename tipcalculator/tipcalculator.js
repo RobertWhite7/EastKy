@@ -32,3 +32,10 @@ function calc(e) {
 }
 
 myBtn.addEventListener('click', calc);
+
+function divideBy() 
+{ 
+        bill = document.getElementById("bill").value;
+        
+document.getElementById("result").innerHTML = bill / bill;
+}
