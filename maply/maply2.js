@@ -1,10 +1,21 @@
+     
+     
       function initAutocomplete() {
         var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: -33.8688, lng: 151.2195},
           zoom: 13,
           mapTypeId: 'roadmap'
         });
-
+   var map2 = new google.maps.Map(document.getElementById('map2'), {
+          center: {lat: -33.8688, lng: 151.2195},
+          zoom: 13,
+          mapTypeId: 'roadmap'
+        });
+           var map3 = new google.maps.Map(document.getElementById('map3'), {
+          center: {lat: -33.8688, lng: 151.2195},
+          zoom: 13,
+          mapTypeId: 'roadmap'
+        });
         // Create the search box and link it to the UI element.
         var input = document.getElementById('pac-input');
         var searchBox = new google.maps.places.SearchBox(input);
@@ -203,6 +214,6 @@ $("#cards").append(html);
 }
 
 $(function () {
-    $("#postButton").on("click", lookupWeatherForPostalCode_Click)
+    $("#postButton").on("click", show.initAutocomplete)
     $("#cards").on("click", hide)
 });
