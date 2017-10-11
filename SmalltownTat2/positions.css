@@ -62,7 +62,12 @@
 	}
 	.positioning{
 		
-	
+		padding: center;
+
+		text-align: center;
+
+		align-self:center;
+		
 		width: 100%;
 	
 		color: red;
@@ -77,7 +82,7 @@
 	.sullen2{
 		background-image: url("http://h2ocean.com/tattoo-aftercare/wp-content/uploads/2015/07/aquatat-lp-bottom.jpg");
 	
-	   background-size: 100% 100%;
+	    background-size: 100% 100%;
 	
 		text-align: left;
 	
@@ -88,16 +93,5 @@
 		height: 70%;
 		
 		color: #EFEFF3;
-	
-	}
-	
-	.lotsoftext{
-		
-	
-		text-align: left;
-	
-		width: 100%;
-		
-		color: red;
 	
 	}
