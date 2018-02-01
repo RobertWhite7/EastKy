@@ -30,10 +30,10 @@
 	}
 	
 	.nav{
-		background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/13240006_1039648729448583_8272924673779332202_n.jpg?oh=45bbe6035948364f4f0bb93d68ba0bf3&oe=5ADC8690");
+		/*background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/13240006_1039648729448583_8272924673779332202_n.jpg?oh=45bbe6035948364f4f0bb93d68ba0bf3&oe=5ADC8690");*/
 		
 		/*background-image: url("http://cdn1.bigcommerce.com/server3900/ca30d/product_images/uploaded_images/sullen.jpg");*/
-	
+	    background-color: black;
 		background-size: 100% 100%;
 	
 		position: fixed;
