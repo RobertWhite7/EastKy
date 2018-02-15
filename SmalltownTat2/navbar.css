@@ -117,11 +117,20 @@ nav {
 		
 		h2 {
 			top: 20px;
-			color: #D92C26;
+			color: #781111;
 			text-align: center;
 			font-family: Arial, Helvetica, sans-serif;
 			image-align: center;
             font-size: 32px;
+		}
+
+		h3 {
+			top: 20px;
+			color: #781111;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			image-align: center;
+            font-size: 24px;
 		}
 .border {
 border-style:solid;
