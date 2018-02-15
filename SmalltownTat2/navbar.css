@@ -19,7 +19,7 @@ p{
 .sul{
     
     text-align: center;
-    color: darkred;
+    color: red;
     font-weight: bold;
     font-size: 20px;
 }
@@ -126,11 +126,11 @@ nav {
 
 		h3 {
 			top: 20px;
-			color: #781111;
+			color: red;
 			text-align: center;
 			font-family: Arial, Helvetica, sans-serif;
 			image-align: center;
-            font-size: 24px;
+            font-size: 14px;
 		}
 .border {
 border-style:solid;
