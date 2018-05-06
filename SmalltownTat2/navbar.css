@@ -5,6 +5,14 @@ p{
     font-size: 20px;
 }
 
+.p1{
+	text-align: center;
+	color:#138DB7;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
 .wrapper{
 
     margin: auto;
